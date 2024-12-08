@@ -4,7 +4,10 @@
   "description": "Formulario AI con JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "pnpm --filter '**' run dev",
+    "test": "pnpm --filter '**' run test",
+    "lint": "pnpm --filter '**' run lint",
+    "install": "pnpm install"
   },
   "keywords": [],
   "author": "@davidlealo",
